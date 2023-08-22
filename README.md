@@ -6,7 +6,11 @@
 
 `Just Started` and `Responsive`
 
-link = ~~Not Deployed~~
+<br>
+
+ link = https://prathamreet.github.io/crystal/ 
+
+<br>
 
 <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=10&section=footer" width="1080" align="center"/>
 
