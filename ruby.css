@@ -8,6 +8,8 @@ body {
     /* background-image: url("./media/Background/cl4.jpg");
     background-repeat: no-repeat;
     background-size: contain; */
+    font-family: 'Varela Round', sans-serif;
+
 }
 
 /* ======================home========================== */
@@ -51,9 +53,10 @@ body {
 
 #nav1 {
     /* background-color: antiquewhite; */
-    margin: 0.3em 1em;
-    padding: 0.2em 0.2em;
-    font-size: 2em;
+    font-family: 'Courgette', cursive;
+    margin: 0.1em 1em;
+    padding: 0.1em 0.2em;
+    font-size: 2.5em;
     font-weight: bold;
     text-decoration: none;
     color: black;
@@ -74,16 +77,25 @@ body {
 }
 
 .nav-link a {
+    border-bottom: 2px solid transparent;
     /* background-color: red; */
     height: 2.3em;
-    width: 6em;
+    width: 7em;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
     text-decoration: none;
-    color: purple;
+    color: #b936a0;
     margin: 0.2em 0.4em;
+
+    
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link a:hover{
+    color: rgb(236, 55, 206);
+    border-bottom: 2px solid rgb(236, 55, 206);
 }
 
 @media (max-width: 950px) {
@@ -105,9 +117,10 @@ body {
 }
 
 .navbar-less a {
-    margin: 0.3em 1em;
-    padding: 0.2em 0.2em;
-    font-size: 2em;
+    font-family: 'Courgette', cursive;
+    margin: 0.1em 1em;
+    padding: 0.1em 0.2em;
+    font-size: 2.5em;
     font-weight: bold;
     text-decoration: none;
     color: black;
