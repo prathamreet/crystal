@@ -225,9 +225,6 @@ body {
     -webkit-text-fill-color: transparent;
     font-family: 'Prompt', sans-serif;
     
-    
-
-
 }
 
 .in-text p {
@@ -251,4 +248,41 @@ body {
     width: 19em;
     /* height: 100%; */
     margin: 1em;
+}
+
+@media (max-width: 1000px) {
+
+    #in002{
+        display: none;
+    }
+
+    .in{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .intro2{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 600px) {
+
+    .in{
+        margin: 1em;
+    }
+
+    .in-text{
+        width: auto;
+    }
+
+    .in-text h4{
+        margin: 0 1em;
+    }
+
+    .btn{
+        margin: 0;
+    }
+
 }
