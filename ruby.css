@@ -385,14 +385,51 @@ body {
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-}
-
-.gem-collage-card img {
-    width: 15em;
 }
 
 .gem-collage-card h5 {
     font-size: 1.3em;
+}
+
+#gcc1 img {
+    width: 16em;
+}
+#gcc2 img {
+    width: 16em;
+}
+#gcc3 img {
+    width: 16em;
+}
+#gcc4 img {
+    width: 19em;
+}
+#gcc5 img {
+    width: 18em;
+}
+#gcc6 img {
+    width: 19em;
+    margin-top: 2em;
+}
+
+@media (max-width:700px) {
+
+    .collections{
+        grid-template-columns: repeat(auto-fit, minmax(9em, 1fr));
+        grid-gap: 1em;
+    }
+
+    .gem-collage-card{
+        width: 10em;
+        height: 10em;
+    }
+    .gci{
+        width: 8em !important;
+    }
+
+    .gem-collage-card h5{
+        font-size: 0.9em;
+    }
+
 }
